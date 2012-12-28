@@ -25,6 +25,8 @@ sub unimport {
 1;
 # ABSTRACT: Add logging to HTTP::Tiny
 
+=for Pod::Coverage ^(import|unimport)$
+
 =head1 SYNOPSIS
 
  use Log::Any::For::LWP
