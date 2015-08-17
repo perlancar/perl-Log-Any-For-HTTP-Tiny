@@ -1,11 +1,12 @@
 package Log::Any::For::HTTP::Tiny;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
-use Log::Any '$log';
-
-# VERSION
+use Log::Any::IfLOG '$log';
 
 use HTTP::Tiny::Patch::LogAny qw();
 
